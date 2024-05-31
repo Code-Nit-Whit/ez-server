@@ -1,0 +1,29 @@
+{
+  "name": "ez-server",
+  "productName": "EZ-Server",
+  "version": "0.1.0",
+  "description": "a quick local dev server with a tray icon interface",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Code-Nit-Whit/EZ-Server"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "express": "^4.19.2",
+    "fs-extra": "^3.0.0",
+    "winston": "^3.13.0",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.6",
+    "jest": "^29.7.0",
+    "winston": "^3.13.0"
+  },
+  "author": "Code-Nit-Whit",
+  "license": "MIT"
+}
